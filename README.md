@@ -232,6 +232,7 @@ The default behavior is to modify (serialize to JSON API) the output of the foll
 - `find`
 - `create`
 - `updateAttributes`
+- `replaceById`
 - `deleteById`
 - `findById`
 
@@ -242,6 +243,7 @@ In addition the following wild card method names are matched and the output is m
 The default behavior is to modify (deserialize from JSON API) the input to the following CRUD methods on all models:
 - `create`
 - `updateAttributes`
+- `replaceById`
 
 ### include
 Allows whitelisting of methods.
